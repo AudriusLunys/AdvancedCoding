@@ -43,10 +43,9 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", dateOfBirth=" + dateOfBirth +
-                '}';
+        return "Client info:" +
+                "Name='" + firstName + '\'' +
+                ", Last Name='" + lastName + '\'' +
+                ", Date Of Birth=" + dateOfBirth ;
     }
 }
